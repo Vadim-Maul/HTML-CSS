@@ -75,7 +75,8 @@ h2.title {
    font-family: "Roboto - Bold";
    font-weight: 700;
 }
-.promo .promo_btn {
+.promo .promo_btn,
+.gift .gift_promo_btn {
    display: block;
    border-radius: 12px;
    margin: 73px auto;
@@ -215,4 +216,67 @@ h2.title {
    min-height: 447px;
    padding: 86px 0 79px 0;
    background: url("../img/bg/second_bg.jpg") center center/cover no-repeat;
+}
+
+.finish .finish_wrapper {
+   margin-top: 41px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.finish .finish_wrapper .finish_item {
+   width: 204px;
+}
+
+.finish .finish_wrapper .finish_item .finish_round {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0 auto;
+   width: 118px;
+   height: 118px;
+   background: #b4e2ff;
+   border-radius: 100%;
+}
+
+.finish .finish_wrapper .finish_item .finish_descr {
+   margin-top: 25px;
+   text-align: center;
+   color: #efefef;
+   font-weight: 300;
+   font-size: 17px;
+   line-height: 20px;
+   font-family: Roboto;
+}
+
+.gift {
+   background-color: #efefef;
+   min-height: 631px;
+   padding-top: 88px;
+}
+
+.gift .gift_img {
+   display: block;
+   padding-left: 494px;
+}
+
+.gift .gift_header {
+   margin-top: 45px;
+   font-family: Roboto;
+   font-size: 30px;
+   line-height: 43px;
+   color: #252525;
+   text-align: center;
+}
+.gift .gift_promo_btn {
+   margin-top: 51px auto;
+}
+
+.first_webinar .first_webinar_img {
+   display: block;
+   padding: 81px;
+   margin: 0 auto;
+}
+
+.first_webinar .first_webinar_header {
 }
