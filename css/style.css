@@ -274,9 +274,63 @@ h2.title {
 
 .first_webinar .first_webinar_img {
    display: block;
-   padding: 81px;
+   padding-top: 81px;
+   padding-bottom: 0;
    margin: 0 auto;
 }
 
 .first_webinar .first_webinar_header {
+   margin-top: 36px;
+   font-family: Roboto;
+   font-size: 30px;
+   color: #252525;
+   text-align: center;
+}
+
+.first_webinar .first_webinar_datum {
+   margin-top: 30px;
+   font-family: Roboto;
+   font-weight: 900;
+   font-size: 36px;
+   color: #299cbd;
+   text-align: center;
+}
+
+.first_webinar .first_webinar_push {
+   margin-top: 24px;
+   margin-bottom: 50px;
+   font-family: Roboto;
+   font-size: 23px;
+   font-weight: normal;
+   color: #4a4a4a;
+   text-align: center;
+}
+footer {
+   min-height: 166px;
+   background-color: #1a1a1a;
+   padding: 61px 0 69px 0;
+}
+
+.info {
+   margin: 0 auto;
+   width: 377px;
+   text-align: center;
+   color: #888888;
+   font-family: Roboto;
+   font-size: 15px;
+   font-weight: 300;
+   line-height: 21px;
+}
+
+footer a {
+   color: #888888;
+   font-family: Roboto;
+   font-size: 15px;
+   font-weight: 300;
+   line-height: 21px;
+   text-decoration: none;
+}
+
+.underlined {
+   text-decoration: underline;
 }
